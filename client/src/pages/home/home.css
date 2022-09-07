@@ -1,0 +1,8 @@
+.container{
+    padding: none;
+    border: none;
+    margin: none;
+}
+.home{
+    flex: 1;
+}
