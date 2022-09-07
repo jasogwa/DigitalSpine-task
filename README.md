@@ -9,6 +9,11 @@ npm install
 ```
 
 ```bash
+cd server/src/dbconfig
+npm install
+```
+
+```bash
 cd client/
 yarn install
 ```
