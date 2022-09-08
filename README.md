@@ -54,5 +54,5 @@ yarn start
 ### 5. Start app
 
 ```
-localhost:3000
+localhost
 ```
