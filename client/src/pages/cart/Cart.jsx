@@ -38,8 +38,8 @@ const Cart = () => {
           <Top>
             <TopButton>CONTINUE SHOPPING</TopButton>
             <TopTexts>
-              <TopText>Shopping Bag(2)</TopText>
-              <TopText>Your Wishlist (0)</TopText>
+              <TopText>Shopping Bag</TopText>
+              <TopText>Your Wishlist </TopText>
             </TopTexts>
             <TopButton type="filled">CHECKOUT NOW</TopButton>
           </Top>
@@ -81,11 +81,11 @@ const Cart = () => {
               </SummaryItem>
               <SummaryItem>
                 <SummaryItemText>Tax</SummaryItemText>
-                <SummaryItemPrice>$ 5.90</SummaryItemPrice>
+                <SummaryItemPrice> {cart.total * 0.02} euro</SummaryItemPrice>
               </SummaryItem>
               <SummaryItem type="total">
                 <SummaryItemText>Total</SummaryItemText>
-                <SummaryItemPrice>{cart.total} euro</SummaryItemPrice>
+                <SummaryItemPrice>{cart.total + (cart.total * 0.02)} euro</SummaryItemPrice>
               </SummaryItem>
               <StripeCheckout
                 name="Lama Shop"
